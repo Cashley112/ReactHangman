@@ -63,6 +63,7 @@ class Hangman extends Component {
         <img src={this.props.images[this.state.nWrong]} />
         <p className='Hangman-word'>{this.guessedWord()}</p>
         <p className='Hangman-btns'>{this.generateButtons()}</p>
+        <p>Number Wrong: {this.state.nWrong}</p>
       </div>
     );
   }
