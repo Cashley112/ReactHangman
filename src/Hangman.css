@@ -59,6 +59,9 @@
 
 #reset {
   width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   background: rgb(73, 60, 157);
 }
 
